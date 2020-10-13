@@ -16,7 +16,6 @@
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 % adjust the page margins
 \usepackage[scale=0.877]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
@@ -30,22 +29,13 @@
 \address{Via Manz\`u, 6, Milano (MI), Italy, 20138}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+39 334 2266721}                   % optional, remove / comment the line if not wanted
 \phone[fixed]{+39 02 51620151}                    % optional, remove / comment the line if not wanted
-%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{alessandro.gianfelici@hotmail.com}                               % optional, remove / comment the line if not wanted
 \homepage{www.linkedin.com/in/alessandro-gianfelici}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
 
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -58,14 +48,13 @@
 \section{Work experience}
 
 \begin{itemize}
-\item{\cventry{Aug 2018 -- present}{}{Data Scientist}{Edison (EDF group)}{}{\vspace{1pt}Design, developement and deployment of machine learning solutions for several corporate departments:}}
+\item{\cventry{Aug 2018 -- present}{Research, Developement \& Innovation}{Data Scientist}{Edison}{}{}}
 \begin{itemize}
-\item trading: development of forecasting models for energy production and consumptions, with a focus on renewable energy sources
-\item marketing: optimization of customer relationship management to improve customer experience, satisfaction and loyalty, maximizing then single customer's value.
-
+\item development of forecasting models for energy production and consumptions, with a focus on renewable energy sources
+\item optimization of customer relationship management to improve customer experience, satisfaction and loyalty, maximizing then single customer's value.
 \end{itemize}
 
-\item{\cventry{Jul 2017 -- Aug 2018}{}{Quantitative Analyst}{Edison (EDF group)}{}{Main activities:}}
+\item{\cventry{Jul 2017 -- Aug 2018}{Market Analysis, Structuring \& Pricing}{Quantitative Analyst}{Edison}{}{}}
 \begin{itemize}
 \item {Developement and implementation of stochastic models for energy commodity prices (oil, gas, power, CO2) and temperature}
 \item {Dynamic programming (forward-backward algorithm) to solve optimal exercise problems for energy structured products (swing options, virtual gas storages, virtual power plants) and to price them}
@@ -75,8 +64,7 @@
 \item {Pricing of weather derivatives and weather-related structured products}
 \item {Valuation of volumetric, weather related, risks in energy contracts}
 \end{itemize}
-\item{\cventry{Jun 2015 -- Jun 2017}{}{Option Pricing Specialist}{ENI}{}{\vspace{3pt} 
-Main activities:}
+\item{\cventry{Jun 2015 -- Jun 2017}{Pricing \& Option Structuring (P\&O)}{Option Pricing Specialist}{ENI}{}{}
 \begin{itemize}
 \item {Developement of pricing models for non standard gas supply contracts (temperature regression models, swing options, physical and virtual storages, supply for thermoelectric power plants)}
 \item {Quantitative support for the gas portfolio management and hedging activities}
@@ -105,20 +93,11 @@ Main activities:}
 
 
 \section{Professional training}
-
 \begin{itemize}
-
 \item{\cventry{}{ODSC (Open Data Science Conference)}{ODSC Europe 2019}{}{}{}}
-
 \item{\cventry{}{Edison Trading SPA}{LNG masterclass: an in-depth overview of the LNG value chain, trading, operations and contracts}{}{}{}}
-
 \item{\cventry{}{Edison SPA}{Linear derivatives on energy commodities: markets, mechanisms, hedging and trading strategies}{}{}{}}
-
 \item{\cventry{}{University of Bologna}{Spring School in Finance}{}{Department of Mathematics}{}}
-
-%\item{\cventry{}{University of Bologna}{First FLAG meeting: ``The Quantum and the Gravity''}{}{Department of Physics}{
-%The first meeting of the FLAG (FieLd And Gravity), an interantional research group whose research activity focuses on nonperturbative quantum gravity theories.
-%\\  Website: \ \ \    \textcolor{color1}{https://agenda.infn.it/conferenceDisplay.py?confId=7256}}}
 \end{itemize}
 
 \section{Computer skills}
@@ -127,11 +106,6 @@ Main activities:}
 \item Good knowledge of Scala, Spark, Matlab, C/C++ 
 \end{itemize}
 
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-%\nocite{*}
-%\bibliographystyle{plain}
 \section{Volunteering experiences}
 \begin{itemize}
  \item Open Data Science Conference (ODSC): ambassador
@@ -148,18 +122,7 @@ Main activities:}
 
 \section{Personal data}
 In compliance with the GDPR - Reg.UE. 2016/679 and Italian Legislative Decree no. 196 - 30/06/2003, I authorize the recipient of this document to use and process my personal details for the purpose of recruiting and selecting staff. 
-%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
 
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
-
-%-----       letter       ---------------------------------------------------------
 
 \bigskip 
 \bigskip 
