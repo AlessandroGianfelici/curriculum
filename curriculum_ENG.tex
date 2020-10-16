@@ -13,16 +13,7 @@
 \moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \nopagenumbers{}
-\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
-\makeatletter
-\newcommand*{\homepageA}[1]{\def\@homepageA{#1}}
-\newcommand*{\homepageB}[1]{\def\@homepageB{#1}}
-\patchcmd{\maketitle}% <cmd>
-  {\ifthenelse{\isundefined{\@homepage}}{}{\addtomaketitle{\homepagesymbol\httplink{\@homepage}}}}% <search>
-  {\ifthenelse{\isundefined{\@homepageA}}{}{\addtomaketitle{\homepagesymbol\httplink{\@homepageA}}}%
-   \ifthenelse{\isundefined{\@homepageB}}{}{\addtomaketitle{\homepagesymbol\httplink{\@homepageB}}}}% <replace>
-  {}{}% <success><failure>
-\makeatother
+
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 % adjust the page margins
@@ -56,7 +47,7 @@ In my role I take care of the whole life cycle of the model: high level requirem
 
 As a python developer I am obsessed with performance, scalability and maintainability of my code and, consequently, I'm a functional programming enthusiast. 
 
-I am deeply passionate about machine learning and finance, so I dedicate a large part of my free time to them: I am involved in two machine learning associations in Milan (ODSC and IAML) and, since the beginning of 2020, I joined \emph{Fatti di Algos}, a think thank about the impact of AI in finance, managed by the Euklid hedge fund.}
+I am deeply passionate about machine learning and finance, so I dedicate a large part of my free time to them: I am involved in two machine learning associations in Milan (ODSC and IAML) and, since the beginning of 2020, I joined \emph{Fatti di Algos}, a think-thank about the impact of AI in finance, sponsored by Euklid.}
 
 \section{Work experience}
 
@@ -119,7 +110,6 @@ Experience with Matlab and VBA
 \begin{itemize}
  \item ITALIAN: mothertongue
  \item ENGLISH: professional knowledge
- \item FRENCH: basic
 \end{itemize} 
 
 \section{Personal data}
@@ -128,6 +118,11 @@ In compliance with the GDPR - Reg.UE. 2016/679 and Italian Legislative Decree no
 
 \bigskip 
 \bigskip
+\bigskip 
+\bigskip 
+\bigskip 
+\bigskip 
+\bigskip 
 \bigskip 
 \bigskip 
 \bigskip 
