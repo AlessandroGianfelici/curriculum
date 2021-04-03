@@ -37,6 +37,7 @@ presentazione/
 *.log
 *.pdf
 *.gz
+*.kate-swp
 
 #Images
 *.png
