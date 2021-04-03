@@ -35,6 +35,7 @@ presentazione/
 
 #tex files
 *.log
+*.kate-swp
 *.pdf
 *.gz
 *.kate-swp
