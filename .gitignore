@@ -9,8 +9,6 @@ __pycache__
 
 # folders
 .vscode/*
-log_folder/*
-catboost_info/*
 
 # result data
 /result_data/* 
@@ -39,6 +37,5 @@ presentazione/
 *.pdf
 *.gz
 *.kate-swp
-
-#Images
-*.png
+*.aux
+*.out
